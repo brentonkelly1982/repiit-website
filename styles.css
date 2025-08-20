@@ -140,8 +140,12 @@ nav li:not(:last-child) a {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
-  padding: 12px 20px 30px;
+  padding: 12px 20px;
   box-sizing: border-box;
+}
+
+.main.content {
+  padding-bottom: 30px;
 }
 
 .footer-outer {
