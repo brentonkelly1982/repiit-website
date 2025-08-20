@@ -38,6 +38,413 @@
           <p>We're here to make your fitness journey smooth, simple, and effective. Whether you have questions about creating custom workouts, setting up voice guidance, or managing your routines, we are ready to assist. Repiit was built to be powerful yet easy to use, so you can focus on training, not troubleshooting.</p>
           <p>We're not just here for problems. We're here for ideas, too. If you spot a bug, think of a feature that would make Repiit even better, or just want to share your progress, we're all ears. Every bit of feedback helps us improve and helps you (and the whole Repiit community) get the most out of every session.</p>
           <p><a href="#" onclick="sendEmail(); return false;">Click here to shoot us an email!</a></p>
+
+          <div class="padded-section">
+            <h2>Frequently Asked Questions</h2>
+            <ul class="faqs">
+              <li class="faq">
+                <a href="#create-workout" class="faq-link" role="button">How do I create a custom workout?</a>
+                <div class="faq-answer" id="create-workout">
+                  <div class="faq-answer-content-pad-1">
+                    <p>Creating a custom workout in Repiit is easy! Follow these steps to build your perfect workout:</p>
+                  </div>
+
+                  <h3>1. Start Creating</h3>
+                  <ul>
+                    <li>From the main workouts screen, tap the <strong>+</strong> button (floating action button) in the bottom right</li>
+                    <li>This opens the "Add Workout" screen where you can build your custom workout</li>
+                  </ul>
+
+                  <h3>2. Set Basic Workout Details</h3>
+                  <ul>
+                    <li><strong>Workout Name</strong>: Enter a name for your workout</li>
+                    <li><strong>Lead In Time</strong>: Set a countdown timer before your workout begins
+                      <ul>
+                        <li>Use the scrollable selectors to choose minutes and seconds (0-59 each)</li>
+                      </ul>
+                    </li>
+                    <li><strong>Rest Between Rounds</strong>: Set how long to rest between rounds
+                      <ul>
+                        <li>Use the scrollable selectors to choose minutes and seconds (0-59 each)</li>
+                      </ul>
+                    </li>
+                  </ul>
+
+                  <h3>3. Create Rounds</h3>
+                  <ul>
+                    <li>Tap <strong>"Add Round"</strong> to create your first round</li>
+                    <li><strong>Round Name</strong>: Give each round a descriptive name</li>
+                    <li><strong>Sets</strong>: Choose how many times to repeat this round (1-30 sets)
+                      <ul>
+                        <li>Use the horizontal scrollable selector to pick your desired number</li>
+                      </ul>
+                    </li>
+                    <li><strong>Round Controls</strong>: Use the up/down arrows to reorder rounds, or trash icon to delete</li>
+                  </ul>
+
+                  <h3>4. Add Exercises to Each Round</h3>
+                  <ul>
+                    <li>Within each round, tap <strong>"Add Exercise"</strong> to add exercises</li>
+                    <li><strong>Exercise Name</strong>: Give your exercise a name</li>
+                    <li>Toggle between two types of exercises:
+                      <ul>
+                        <li>Toggle <strong>Timed Exercise</strong> on:
+                          <ul>
+                            <li><strong>Work Duration</strong>: Set minutes and seconds (0-59 each)</li>
+                          </ul>
+                        </li>
+                        <li>Toggle <strong>Timed Exercise</strong> off:
+                          <ul>
+                            <li><strong>Reps</strong>: Choose from 1-50 reps</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><strong>Rest Duration</strong>: Set rest time between exercises (0-59 minutes and seconds)</li>
+                  </ul>
+
+                  <h3>5. Organize Your Workout</h3>
+                  <ul>
+                    <li><strong>Reorder Exercises</strong>: Long-press and drag exercises within a round to reorder them</li>
+                    <li><strong>Reorder Rounds</strong>: Use the up/down arrows to change round order</li>
+                    <li><strong>Add More Rounds</strong>: Tap "Add Round" to create additional rounds</li>
+                    <li><strong>Add More Exercises</strong>: Tap "Add Exercise" within any round to add more exercises</li>
+                  </ul>
+
+                  <h3>6. Save Your Workout</h3>
+                  <ul>
+                    <li>Tap the <strong>Save</strong> button (floating disk icon) when you're finished</li>
+                    <li>Your workout will be saved and you'll return to the main workouts screen</li>
+                    <li><strong>Note</strong>: You must have at least one round with at least one exercise to save</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="faq">
+                <a href="#hiit-workout" class="faq-link" role="button">How do I create a HIIT workout?</a>
+                <div class="faq-answer" id="hiit-workout">
+                  <div class="faq-answer-content-pad-1">
+                    <p>For a workout to be considered HIIT in Repiit, ALL exercises must be configured as timed exercises. If any exercise in the workoutuses repetitions instead of timing, it will be considered a mixed workout and the workout will not function as a HIIT workout.</p>
+                  </div>
+
+                  <div class="faq-answer-content-pad-2">
+                    <h3>1. Create a New Workout</h3>
+                    <ul>
+                      <li>From the main workouts screen, tap the + button (floating action button) in the bottom right</li>
+                      <li>Enter a workout name (e.g., "Morning HIIT Circuit")</li>
+                      <li>Set your lead-in time (countdown before starting)</li>
+                      <li>Set rest time between rounds</li>
+                    </ul>
+
+                    <h3>2. Add Rounds to Your Workout</h3>
+                    <ul>
+                      <li>Use the "Add Round" button to create workout rounds</li>
+                      <li>Name your rounds (e.g., "Round 1", "Cardio Blast", "Strength")</li>
+                      <li>Set the number of sets for each round</li>
+                    </ul>
+
+                    <h3>3. Add Exercises to Each Round</h3>
+                    <ul>
+                      <li>Within each round, tap "Add Exercise"</li>
+                      <li>Enter the exercise name (e.g., "Burpees", "Mountain Climbers", "Jump Squats")</li>
+                      <li><strong>Critical:</strong> Toggle the "Timed" switch to ON (this makes it a timed exercise)</li>
+                    </ul>
+
+                    <h3>4. Configure Exercise Timing</h3>
+                    <ul>
+                      <li><strong>Work Duration:</strong> Set how long to perform the exercise</li>
+                      <li><strong>Rest Duration:</strong> Set rest time after the exercise</li>
+                      <li>Use the scrollable time selectors to set minutes and seconds</li>
+                    </ul>
+
+                    <h3>5. Repeat for All Exercises</h3>
+                    <ul>
+                      <li>Continue adding exercises to each round</li>
+                      <li>Ensure EVERY exercise has the "Timed" toggle set to ON</li>
+                      <li>Set appropriate work and rest durations for each exercise</li>
+                    </ul>
+                  </div>
+
+                  <h3>How HIIT Workouts Work in Repiit</h3>
+
+                  <p>When you play a HIIT workout:</p>
+                  <ul>
+                      <li>The app automatically detects it's a HIIT workout when all exercises are timed</li>
+                      <li>Each exercise runs for its specified work duration</li>
+                      <li>Rest periods automatically follow each exercise</li>
+                      <li>The workout progresses through all rounds and sets automatically</li>
+                      <li>Voice guidance announces exercise transitions and timing</li>
+                      <li>No interaction is required from the user during the workout</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="faq">
+                <a href="#play-workout" class="faq-link" role="button">How do I play a workout?</a>
+                <div class="faq-answer" id="play-workout">
+                  <div class="faq-answer-content-pad-1">
+                    <p>Playing a workout in Repiit transforms your custom routine into an interactive, guided fitness session with voice coaching, visual progress tracking, and automatic timing. The app handles all the complexity so you can focus on your workout.</p>
+                  </div>
+
+                  <div class="faq-answer-content-pad-2">
+                    <h3>1. Select a Workout</h3>
+                    <ul>
+                      <li>From the main workouts screen, tap on any workout you want to play</li>
+                      <li>This will open the workout management screen where you can view and edit the workout</li>
+                      <li>Make sure the workout has at least one round with exercises before attempting to play</li>
+                    </ul>
+            
+                    <h3>2. Start the Workout</h3>
+                    <ul>
+                      <li>In the workout management screen, tap the blue play button in the bottom navigation bar</li>
+                      <li>The app will set this workout as active and navigate to the workout playback screen</li>
+                      <li>You'll see a screen that says "Click play to start"</li>
+                    </ul>
+            
+                    <h3>3. Begin Your Session</h3>
+                    <ul>
+                      <li>On the workout playback screen, tap the blue play button in the bottom navigation bar to start</li>
+                      <li>The workout will begin with a lead-in countdown (if configured)</li>
+                      <li>Voice guidance will announce the first exercise</li>
+                    </ul>
+                  </div>
+
+                  <div class="faq-answer-content-pad-1">
+                    <h3>Visual Progress Tracking</h3>
+                    <ul>
+                      <li><strong>Outer Progress Circle:</strong> Shows overall workout completion (blue circle)</li>
+                      <li><strong>Inner Progress Circle:</strong> Shows current exercise progress (red circle)</li>
+                      <li><strong>Timer Display:</strong> Shows total workout time elapsed</li>
+                      <li><strong>Exercise Name:</strong> Displays current exercise or activity</li>
+                      <li><strong>Time Left:</strong> Displays the time left for the current exercise (if timed) or rest</li>
+                      <li><strong>Up Next:</strong> Displays the next exercise to be performed</li>
+                    </ul>
+                  </div>
+
+                  <div class="faq-answer-content-pad-1">
+                    <h3>Control Buttons</h3>
+                    <ul>
+                      <li><strong>Play Button:</strong> Starts or resumes the workout</li>
+                      <li><strong>Pause Button:</strong> Pauses the workout</li>
+                      <li><strong>Skip Button:</strong> Skips rest periods and moves to next exercise</li>
+                      <li><strong>Complete Button:</strong> Marks rep-based exercises as complete</li>
+                    </ul>
+                  </div>
+
+                  <h3>How Workout Sequencing Works</h3>
+                  <p>The app automatically converts your workout structure into a sequential timeline:</p>
+                  <ul>
+                      <li><strong>Lead-in Time:</strong> Countdown before starting the first exercise</li>
+                      <li><strong>Exercise Work Periods:</strong> Active exercise time with countdown</li>
+                      <li><strong>Rest Periods:</strong> Recovery time between exercises</li>
+                      <li><strong>Round Transitions:</strong> Rest periods between different rounds</li>
+                      <li><strong>Set Repetitions:</strong> Automatically repeats rounds based on your set count</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="faq">
+                <a href="#voice-guidance" class="faq-link" role="button">How do I configure voice guidance?</a>
+                <div class="faq-answer" id="voice-guidance">
+                  <div class="faq-answer-content-pad-1">
+                    <p>Voice guidance in Repiit is automatically activated for workout playback. If not configured in Settings, the workout playback will simply use the default system voice.</p>
+                    <p>Configuring voice guidance in Repiit is easy! Here's how:</p>
+                  </div>
+
+                  <div class="faq-answer-content-pad-2">
+                    <h3>1. Access Voice Settings</h3>
+                    <ul>
+                      <li>From the main workouts screen, tap the <strong>Settings</strong> button in the bottom navigation bar</li>
+                      <li>This opens the Settings screen where you can configure voice preferences</li>
+                    </ul>
+
+                    <h3>2. Select Your Voice</h3>
+                    <ul>
+                      <li>In the <strong>Voice Settings</strong> section, you'll see a horizontal scrollable list of available voices</li>
+                      <li>Each voice option shows the voice name and language (e.g., "Samantha (en-US)")</li>
+                      <li>Tap on any voice option to select it</li>
+                      <li>The selected voice will be highlighted with a dark blue background</li>
+                    </ul>
+
+                    <h3>3. Test Your Voice Selection</h3>
+                    <ul>
+                      <li>After selecting a voice, tap the <strong>"Try Voice"</strong> button to hear a sample</li>
+                      <li>The app will play a random motivational message using your selected voice</li>
+                      <li>This helps you confirm the voice sounds clear and is the right speed for you</li>
+                    </ul>
+
+                    <h3>4. Save Your Settings</h3>
+                    <ul>
+                      <li>Once you're satisfied with your voice selection, tap the <strong>Save</strong> button in the footer</li>
+                      <li>Your voice preference will be saved and used for all future workouts</li>
+                    </ul>
+                  </div>
+
+                  <h3>Voice Characteristics</h3>
+                  <ul>
+                    <li><strong>Language</strong>: Currently optimized for English (en-US)</li>
+                    <li><strong>Pitch</strong>: Set to natural speaking pitch (1.0)</li>
+                    <li><strong>Speed</strong>: Set to normal speaking rate (1.0)</li>
+                    <li><strong>Volume</strong>: Uses your device's system volume settings</li>
+                  </ul>
+
+                  <h3>Tips for Optimal Voice Experience</h3>
+                  <ul>
+                    <li><strong>Choose a Clear Voice</strong>: Select a voice that's easy to understand during physical activity</li>
+                    <li><strong>Test Before Working Out</strong>: Use the "Try Voice" button to ensure the voice is clear and motivating</li>
+                    <li><strong>Adjust Device Volume</strong>: Make sure your device volume is set to a comfortable level for workout announcements</li>
+                    <li><strong>Consider Language</strong>: While the app supports multiple system voices, English voices provide the most natural workout guidance</li>
+                  </ul>
+
+                  <h3>Troubleshooting Voice Issues</h3>
+                  <ul>
+                    <li><strong>No Sound</strong>: Check your device volume and ensure it's not on silent mode</li>
+                    <li><strong>Voice Not Working</strong>: Try selecting a different voice and testing it</li>
+                    <li><strong>Unclear Speech</strong>: Some voices may be clearer than others - experiment with different options</li>
+                    <li><strong>Wrong Voice in Workout Playback</strong>: Ensure you've saved your voice settings before starting a workout</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="faq">
+                <a href="#import-data" class="faq-link" role="button">How do I import workout data?</a>
+                <div class="faq-answer" id="import-data">
+                  <div class="faq-answer-content-pad-1">
+                    <p>Repiit allows you to import workout data from other users or restore your own workouts using base64-encoded data. This feature is perfect for sharing workout routines with friends, transferring data between devices, or backing up your custom workouts.</p>
+                    <p><strong>What is base64 data?</strong> Base64 is a way to encode workout information into text that can be easily shared via messaging, email, or copied to clipboard. It contains all your workout details including exercises, timing, and structure.</p>
+                  </div>
+
+                  <div class="faq-answer-content-pad-2">
+                    <h3>1. Access the Settings Screen</h3>
+                    <ul>
+                      <li>From the main workouts screen, tap "Settings" in the bottom navigation bar</li>
+                      <li>This will open the Settings screen where you can manage your app preferences</li>
+                    </ul>
+
+                    <h3>2. Navigate to Import Data Section</h3>
+                    <ul>
+                      <li>Scroll down to find the "Import Data" section</li>
+                      <li>You'll see a description explaining how the import process works</li>
+                    </ul>
+            
+                    <h3>3. Choose Your Import Method</h3>
+                    <p>Select one of two import options:</p>
+                    <ul>
+                      <li><strong>Add to Workouts:</strong> Imports new workouts while keeping your existing ones</li>
+                      <li><strong>Overwrite Workouts:</strong> Replaces all your current workouts with the imported data
+                        <ul>
+                          <li><strong>Warning:</strong> "Overwrite Workouts" will permanently delete all your existing workouts. Make sure you have a backup if you want to keep them</li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <h3>4. Paste the Base64 Data</h3>
+                    <ul>
+                      <li>Copy the base64-encoded workout data from your source (friend, backup, etc.)</li>
+                      <li>Tap the text area labeled "Import Data (Base64)"</li>
+                      <li>Paste the copied data into the text area</li>
+                      <li>Ensure you've copied the complete string - missing characters will cause import failure</li>
+                    </ul>
+
+                    <h3>5. Import Your Data</h3>
+                    <ul>
+                      <li>Tap the blue "Import Data" button</li>
+                      <li>The app will validate the data format</li>
+                      <li>If successful, you'll see a "Data imported successfully!" message</li>
+                      <li>Your new workouts will now appear in your workouts list</li>
+                    </ul>
+                  </div>
+          
+                  <div class="faq-answer-content-pad-1">
+                    <h3>Troubleshooting Import Issues</h3>
+                    <ul>
+                      <li><strong>Invalid Data Error:</strong> Ensure you copied the complete base64 string without missing characters</li>
+                      <li><strong>Import Method Not Selected:</strong> Choose either "Add to Workouts" or "Overwrite Workouts" before importing</li>
+                      <li><strong>Empty Text Area:</strong> Make sure you've pasted the base64 data into the text area</li>
+                      <li><strong>Corrupted Data:</strong> If the data was modified or corrupted, request a fresh export from the source</li>
+                    </ul>
+                  </div>
+
+                  <div class="faq-answer-content-pad-1">
+                    <h3>Data Safety and Privacy</h3>
+                    <ul>
+                      <li><strong>Local Storage:</strong> All workout data is stored locally on your device</li>
+                      <li><strong>No Cloud Upload:</strong> Your data never leaves your device unless you choose to share it</li>
+                      <li><strong>Data Safety:</strong> Base64 data contains only workout information - no personal data is shared</li>
+                      <li><strong>Personal Control:</strong> You decide when and with whom to share your workout data</li>
+                      <li><strong>No Tracking:</strong> The app doesn't collect or transmit your workout information</li>
+                    </ul>
+                  </div>
+
+                  <p><strong>Pro Tip:</strong> Before using "Overwrite Workouts," export your current data first. This way you'll have a backup if you want to restore your original workouts later.</p>
+                </div>
+              </li>
+              <li class="faq">
+                <a href="#export-data" class="faq-link" role="button">How do I export workout data?</a>
+                <div class="faq-answer" id="export-data">
+                  <div class="faq-answer-content-pad-1">
+                    <p>Exporting your workout data in Repiit allows you to share your custom routines with friends, backup your workouts, or transfer them to another device. The app uses base64 encoding to convert your workout data into a shareable text format.</p>
+                    <p><strong>What gets exported:</strong> All your custom workouts, including exercise names, timing settings, rep counts, round structures, and workout configurations. Your personal settings and voice preferences are not included in the export.</p>
+                  </div>
+
+                  <div class="faq-answer-content-pad-2">
+                    <h3>1. Access the Settings Screen</h3>
+                    <ul>
+                      <li>From the main workouts screen, tap "Settings" in the bottom navigation bar</li>
+                      <li>This will open the Settings screen where you can manage your app preferences</li>
+                    </ul>
+            
+                    <h3>2. Navigate to Export Data Section</h3>
+                    <ul>
+                      <li>Scroll down to find the "Export Data" section</li>
+                      <li>You'll see a description explaining that this will share base64 encoded text</li>
+                    </ul>
+
+                    <h3>3. Export Your Data</h3>
+                    <ul>
+                      <li>Tap the blue "Export Data" button</li>
+                      <li>The app will automatically encode all your workout data into base64 format</li>
+                      <li>This process happens instantly and includes all your custom workouts</li>
+                    </ul>
+
+                    <h3>4. Choose How to Share</h3>
+                    <p>The app will attempt to use your device's native sharing capabilities first:</p>
+                    <ul>
+                      <li><strong>Primary Method:</strong> The app tries to open your device's share sheet</li>
+                      <li><strong>Fallback Method:</strong> If sharing fails, the data is automatically copied to your clipboard</li>
+                      <li>You'll see a success message confirming the data was copied</li>
+                    </ul>
+                  </div>
+          
+                  <div class="faq-answer-content-pad-1">
+                    <h3>What Data is Included in the Export</h3>
+                    <p>Your exported data contains complete workout information:</p>
+                    <ul>
+                      <li><strong>Workout Details:</strong> Names, lead-in times, rest between rounds</li>
+                      <li><strong>Round Structure:</strong> Round names, number of sets, exercise order</li>
+                      <li><strong>Exercise Information:</strong> Exercise names, work durations, rest periods, rep counts</li>
+                      <li><strong>Timing Configuration:</strong> Whether exercises are timed or rep-based</li>
+                      <li><strong>Complete Workout Structure:</strong> All rounds, exercises, and their relationships</li>
+                    </ul>
+                  </div>
+
+                  <div class="faq-answer-content-pad-1">
+                    <h3>Troubleshooting Export Issues</h3>
+                    <ul>
+                      <li><strong>No Workouts to Export:</strong> Create at least one workout before attempting to export</li>
+                      <li><strong>Sharing Fails:</strong> The app automatically falls back to clipboard copying</li>
+                      <li><strong>Data Too Long:</strong> Base64 strings can be lengthy - this is normal and expected</li>
+                    </ul>
+                  </div>
+
+                  <h3>Data Privacy and Security</h3>
+                  <ul>
+                    <li><strong>Local Storage:</strong> All workout data is stored locally on your device</li>
+                    <li><strong>No Cloud Upload:</strong> Your data never leaves your device unless you choose to share it</li>
+                    <li><strong>Data Safety:</strong> Base64 data contains only workout information - no personal data is shared</li>
+                    <li><strong>Personal Control:</strong> You decide when and with whom to share your workout data</li>
+                    <li><strong>No Tracking:</strong> The app doesn't collect or transmit your workout information</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </main>
       <footer class="footer-outer content-outer">
